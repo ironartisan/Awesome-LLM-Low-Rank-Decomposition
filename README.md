@@ -1,7 +1,7 @@
 
 # **Low-Rank Decomposition for Large Language Models (LLMs)**
 
-
+**Final Clean Version (2022–2026)**
 
 ---
 
@@ -53,7 +53,9 @@
 | **CompactifAI**: Quantum-Inspired Tensor Network Compression for LLMs     | 2024 | arXiv          | Tensor Decomposition          | —                                                                              |
 | **T-MAC**: CPU Inference with Low-Bit Tensor Compression                  | 2024 | arXiv          | Tensor + Quant                | [https://github.com/microsoft/T-MAC](https://github.com/microsoft/T-MAC)       |
 | **LQER**: Low-Rank Quantization Error Reconstruction                      | 2024 | arXiv          | Low-Rank + Quant              | —                                                                              |
-| **Adaptive Feature-based Low-Rank Compression** via Bayesian Optimization | 2024 | EMNLP Findings | Low-Rank + Quant              | —                                                                              |
+| **Adaptive Feature-based Low-Rank Compression** via Bayesian Optimization | 2024 | EMNLP Findings | Low-Rank + Quant              | —
+| **A Token is Worth over 1,000 Tokens**: Efficient Knowledge Distillation through Low-Rank Clone | 2025 | NeurIPS (Spotlight) |  Low-Rank + Distillation | https://github.com/CURRENTF/LowRankClone |
+| **Lillama**: Large Language Models Compression via Low-Rank Feature Distillation | 2024 | arXiv | Low-Rank + Distillation | — |                                                                           |
 | **Training-Free Low-Rank Decomposition** for LLM Compression              | 2024 | arXiv          | Low-Rank                      | —                                                                              |
 | **TensorGPT**: Tensor-Train Decomposition for LLM Embeddings              | 2023 | arXiv          | Tensor Decomposition          | [https://github.com/idiap/TensorGPT](https://github.com/idiap/TensorGPT)       |
 | **PowerSGD++**: Practical Low-Rank Gradient Compression                   | 2023 | ICML           | Low-Rank                      | [https://github.com/epfml/powersgd](https://github.com/epfml/powersgd)         |
@@ -96,32 +98,13 @@
 
 ---
 
-## **6. SVD / Low-Rank Based Adaptation (PEFT)**
 
-| Paper (Title)                                                       | Year | Venue   | Category                | Code                                                                                                   |
-| ------------------------------------------------------------------- | ---- | ------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
-| **DoRA**: Weight-Decomposed Low-Rank Adaptation                     | 2024 | ICML    | PEFT                    | [https://github.com/NVlabs/DoRA](https://github.com/NVlabs/DoRA)                                       |
-| **PiSSA**: Principal Singular Values and Vectors Adaptation         | 2024 | ICLR    | PEFT                    | [https://github.com/GraphPKU/PiSSA](https://github.com/GraphPKU/PiSSA)                                 |
-| **VeRA**: Vector-based Random Matrix Adaptation                     | 2024 | ICLR    | PEFT (Extreme Low-Rank) | —                                                                                                      |
-| **LoRA+**: Efficient Finetuning of Wide Neural Networks             | 2024 | ICML    | PEFT (Optimization)     | [https://github.com/nikhil-ghosh-berkeley/loraplus](https://github.com/nikhil-ghosh-berkeley/loraplus) |
-| **QA-LoRA**: Quantization-Aware Low-Rank Adaptation                 | 2024 | ICLR    | PEFT + Quant            | —                                                                                                      |
-| **LoRA-XS**: Extremely Small Low-Rank Adaptation                    | 2024 | ICLR    | PEFT                    | [https://github.com/YichuanMo/LoRA-XS](https://github.com/YichuanMo/LoRA-XS)                           |
-| **CorDA**: Context-Oriented Decomposition Adaptation                | 2024 | NeurIPS | PEFT                    | [https://github.com/IBK-Lab/CorDA](https://github.com/IBK-Lab/CorDA)                                   |
-| **FourierFT**: Fourier Series-Based Parameter-Efficient Fine-Tuning | 2024 | NeurIPS | PEFT (Spectral)         | —                                                                                                      |
-| **ALORS**: Effective Subspace Method for Few-Shot Adaptation        | 2024 | AAAI    | PEFT                    | —                                                                                                      |
-| **KronA**: Kronecker Adapter for Parameter-Efficient Tuning         | 2023 | NeurIPS | PEFT (Kronecker)        | —                                                                                                      |
-| **AdaLoRA**: Adaptive Budget Allocation for PEFT                    | 2023 | ICLR    | PEFT                    | [https://github.com/QingruZhang/AdaLoRA](https://github.com/QingruZhang/AdaLoRA)                       |
-| **LoRA**: Low-Rank Adaptation of LLMs                               | 2022 | ICLR    | PEFT (Foundational)     | [https://github.com/microsoft/LoRA](https://github.com/microsoft/LoRA)                                 |
 
----
-
-## **7. Optimization, Training & Analysis**
+## **6. Optimization, Training & Analysis**
 
 | Paper (Title)                                                             | Year | Venue   | Category                | Code                                                                                                 |
 | ------------------------------------------------------------------------- | ---- | ------- | ----------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Training Transformers with Rank Constraints**                           | 2025 | arXiv   | Optimization / Analysis | —                                                                                                    |
-| **GaLore**: Gradient Low-Rank Projection                                  | 2024 | ICML    | Training Optimization   | [https://github.com/jiaweizzhao/GaLore](https://github.com/jiaweizzhao/GaLore)                       |
-| **The Expressive Power of Low-Rank Adaptation**                           | 2024 | ICLR    | Analysis (PEFT)         | —                                                                                                    |
+—                                                                                                    |
 | **Low-Rank Training Does Not Mean Low-Rank Weights**                      | 2024 | NeurIPS | Analysis                | —                                                                                                    |
 | **SVDFormer**: Lightweight Transformer via SVD                            | 2023 | arXiv   | Architecture            | —                                                                                                    |
 | **Compressing Transformers**: Features Are Low-Rank, but Weights Are Not! | 2023 | arXiv   | Analysis                | [https://github.com/HazyResearch/feature-low-rank](https://github.com/HazyResearch/feature-low-rank) |
