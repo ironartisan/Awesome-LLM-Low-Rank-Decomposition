@@ -108,10 +108,10 @@
 
 | Paper                                                                                                                           | Method               | Year | Venue   | Category                | Code                                                     |
 |---------------------------------------------------------------------------------------------------------------------------------|----------------------|------|---------|-------------------------|----------------------------------------------------------|
-| [Low-Rank Training Does Not Mean Low-Rank Weights](https://arxiv.org/abs/2402.05936)                                            | LR-Training Analysis | 2024 | NeurIPS | Analysis                | -                                                        |
-| [Compressing Transformers: Features Are Low-Rank, but Weights Are Not!](https://ojs.aaai.org/index.php/AAAI/article/view/26304) | Feature-Low-Rank     | 2023 | AAAI    | Analysis                | [Link](https://github.com/HazyResearch/feature-low-rank) |
-| [Intrinsic Dimensionality Explains the Effectiveness of LM Fine-Tuning](https://aclanthology.org/2021.acl-long.45/)             | Intrinsic-Dim        | 2021 | ACL     | Analysis (Foundational) | -                                                        |
-| [Measuring the Intrinsic Dimension of Objective Landscapes](https://arxiv.org/abs/1804.08838)                                   | Intrinsic-Dim        | 2018 | ICLR    | Analysis                | -                                                        |
+| [Low-Rank Training Does Not Mean Low-Rank Weights](https://arxiv.org/abs/2402.05936)                                            | - | 2024 | NeurIPS | Analysis                | -                                                        |
+| [Compressing Transformers: Features Are Low-Rank, but Weights Are Not!](https://ojs.aaai.org/index.php/AAAI/article/view/26304) | feature-low-rank     | 2023 | AAAI    | Analysis                | [Link](https://github.com/HazyResearch/feature-low-rank) |
+| [Intrinsic Dimensionality Explains the Effectiveness of LM Fine-Tuning](https://aclanthology.org/2021.acl-long.45/)             | -        | 2021 | ACL     | Analysis (Foundational) | -                                                        |
+| [Measuring the Intrinsic Dimension of Objective Landscapes](https://arxiv.org/abs/1804.08838)                                   | -        | 2018 | ICLR    | Analysis                | -                                                        |
 
                                                                                             
 
